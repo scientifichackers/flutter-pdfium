@@ -1,0 +1,3 @@
+[submodule "flutter-desktop-embedding"]
+	path = flutter-desktop-embedding
+	url = https://github.com/google/flutter-desktop-embedding.git
