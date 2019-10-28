@@ -1,8 +1,8 @@
 name: pdfium
-description: A new Flutter package.
+description: dart:ffi wrapper for Google's Pdfium library
 version: 0.0.1
-author:
-homepage:
+homepage: https://github.com/scientifichackers/flutter-pdfium
+author: Dev Aggarwal <devxpy@gmail.com>
 
 environment:
   sdk: ">=2.6.0-dev.8.2 <3.0.0"

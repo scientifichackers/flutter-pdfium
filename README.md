@@ -1,14 +1,21 @@
-# pdfium
+[![pub package](https://img.shields.io/pub/v/pdfium.svg?style=for-the-badge)](https://pub.dartlang.org/packages/pdfium)
 
-A new Flutter package.
+# Flutter Pdfium
 
-## Getting Started
+This project aims to wrap the complete [Pdfium](https://pdfium.googlesource.com/pdfium/) API in dart, over FFI.
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+It's currently only a proof-of-concept, but can successfully produce bitmaps from PDF files.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+This has the potential to build a truly cross platform,
+high-level API for rendering and editing PDFs on all 5 platforms.
+
+## Goals
+
+- [ ] Build Pdfium shared libraries for all platforms. ([pdfium_builder](https://github.com/scientifichackers/pdfium-builder))
+- [ ] Find a way to generate FFI code from C headers.
+- [ ] Integrate into [flutter_pdf_viewer](https://github.com/scientifichackers/flutter_pdf_viewer).
+
+## Thanks
+
+A big THANK YOU to Google for open sourcing Pdfium,
+and releasing [dart:ffi](https://dart.dev/guides/libraries/c-interop).
